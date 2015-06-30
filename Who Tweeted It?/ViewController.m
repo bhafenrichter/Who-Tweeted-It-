@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <TwitterKit/TwitterKit.h>
 
 @interface ViewController ()
 
@@ -16,12 +17,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    TWTRLogInButton* logInButton =  [TWTRLogInButton buttonWithLogInCompletion: ^(TWTRSession* session, NSError* error) {
+         if (session) {
+             NSLog(@"signed in as %@", [session userName]);
+             
+             [self performSegueWithIdentifier:@"loginToHome" sender:self];
+             
+         } else {
+             NSLog(@"error: %@", [error localizedDescription]);
+         }}];
+    logInButton.center = self.view.center;
+    logInButton.tag = 39;
+    [self.view addSubview:logInButton];
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

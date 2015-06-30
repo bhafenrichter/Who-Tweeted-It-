@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0B9FE61AC9BA27003A07D2 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B9FE51AC9BA27003A07D2 /* Question.m */; };
+		3D1280631AC999CF0097BD59 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1280621AC999CF0097BD59 /* Tweet.m */; };
 		3D317F331AC5010500A5CD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D317F321AC5010500A5CD0E /* main.m */; };
 		3D317F361AC5010500A5CD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D317F351AC5010500A5CD0E /* AppDelegate.m */; };
 		3D317F391AC5010500A5CD0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D317F381AC5010500A5CD0E /* ViewController.m */; };
@@ -14,6 +16,13 @@
 		3D317F3E1AC5010500A5CD0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D317F3D1AC5010500A5CD0E /* Images.xcassets */; };
 		3D317F411AC5010500A5CD0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D317F3F1AC5010500A5CD0E /* LaunchScreen.xib */; };
 		3D317F4D1AC5010500A5CD0E /* Who_Tweeted_It_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D317F4C1AC5010500A5CD0E /* Who_Tweeted_It_Tests.m */; };
+		3D317F5A1AC50EDE00A5CD0E /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D317F571AC50EDE00A5CD0E /* TwitterKit.framework */; };
+		3D317F5B1AC50EDE00A5CD0E /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D317F581AC50EDE00A5CD0E /* TwitterKitResources.bundle */; };
+		3D317F5C1AC50EDE00A5CD0E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D317F591AC50EDE00A5CD0E /* Fabric.framework */; };
+		3D317F5F1AC5149700A5CD0E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D317F5E1AC5149700A5CD0E /* HomeViewController.m */; };
+		3D317F621AC5194E00A5CD0E /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D317F611AC5194E00A5CD0E /* QuizViewController.m */; };
+		3D6E01771ACE4BE8003E22D1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E01761ACE4BE8003E22D1 /* User.m */; };
+		3D6E017A1ACE4C60003E22D1 /* UserSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E01791ACE4C60003E22D1 /* UserSelectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0B9FE41AC9BA27003A07D2 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		3D0B9FE51AC9BA27003A07D2 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		3D1280611AC999CF0097BD59 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		3D1280621AC999CF0097BD59 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 		3D317F2D1AC5010400A5CD0E /* Who Tweeted It?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Tweeted It?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D317F311AC5010500A5CD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D317F321AC5010500A5CD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +53,17 @@
 		3D317F461AC5010500A5CD0E /* Who Tweeted It?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who Tweeted It?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D317F4B1AC5010500A5CD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D317F4C1AC5010500A5CD0E /* Who_Tweeted_It_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Who_Tweeted_It_Tests.m; sourceTree = "<group>"; };
+		3D317F571AC50EDE00A5CD0E /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		3D317F581AC50EDE00A5CD0E /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		3D317F591AC50EDE00A5CD0E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		3D317F5D1AC5149700A5CD0E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3D317F5E1AC5149700A5CD0E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3D317F601AC5194E00A5CD0E /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		3D317F611AC5194E00A5CD0E /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		3D6E01751ACE4BE8003E22D1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		3D6E01761ACE4BE8003E22D1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		3D6E01781ACE4C60003E22D1 /* UserSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSelectionViewController.h; sourceTree = "<group>"; };
+		3D6E01791ACE4C60003E22D1 /* UserSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSelectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D317F5A1AC50EDE00A5CD0E /* TwitterKit.framework in Frameworks */,
+				3D317F5C1AC50EDE00A5CD0E /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,9 @@
 		3D317F241AC5010400A5CD0E = {
 			isa = PBXGroup;
 			children = (
+				3D317F571AC50EDE00A5CD0E /* TwitterKit.framework */,
+				3D317F581AC50EDE00A5CD0E /* TwitterKitResources.bundle */,
+				3D317F591AC50EDE00A5CD0E /* Fabric.framework */,
 				3D317F2F1AC5010400A5CD0E /* Who Tweeted It? */,
 				3D317F491AC5010500A5CD0E /* Who Tweeted It?Tests */,
 				3D317F2E1AC5010400A5CD0E /* Products */,
@@ -85,7 +114,19 @@
 				3D317F351AC5010500A5CD0E /* AppDelegate.m */,
 				3D317F371AC5010500A5CD0E /* ViewController.h */,
 				3D317F381AC5010500A5CD0E /* ViewController.m */,
+				3D1280611AC999CF0097BD59 /* Tweet.h */,
+				3D1280621AC999CF0097BD59 /* Tweet.m */,
+				3D317F5D1AC5149700A5CD0E /* HomeViewController.h */,
+				3D317F5E1AC5149700A5CD0E /* HomeViewController.m */,
 				3D317F3A1AC5010500A5CD0E /* Main.storyboard */,
+				3D6E01751ACE4BE8003E22D1 /* User.h */,
+				3D6E01761ACE4BE8003E22D1 /* User.m */,
+				3D6E01781ACE4C60003E22D1 /* UserSelectionViewController.h */,
+				3D6E01791ACE4C60003E22D1 /* UserSelectionViewController.m */,
+				3D317F601AC5194E00A5CD0E /* QuizViewController.h */,
+				3D317F611AC5194E00A5CD0E /* QuizViewController.m */,
+				3D0B9FE41AC9BA27003A07D2 /* Question.h */,
+				3D0B9FE51AC9BA27003A07D2 /* Question.m */,
 				3D317F3D1AC5010500A5CD0E /* Images.xcassets */,
 				3D317F3F1AC5010500A5CD0E /* LaunchScreen.xib */,
 				3D317F301AC5010400A5CD0E /* Supporting Files */,
@@ -129,6 +170,7 @@
 				3D317F291AC5010400A5CD0E /* Sources */,
 				3D317F2A1AC5010400A5CD0E /* Frameworks */,
 				3D317F2B1AC5010400A5CD0E /* Resources */,
+				3D317F561AC50E8900A5CD0E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -199,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D317F5B1AC50EDE00A5CD0E /* TwitterKitResources.bundle in Resources */,
 				3D317F3C1AC5010500A5CD0E /* Main.storyboard in Resources */,
 				3D317F411AC5010500A5CD0E /* LaunchScreen.xib in Resources */,
 				3D317F3E1AC5010500A5CD0E /* Images.xcassets in Resources */,
@@ -214,14 +257,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D317F561AC50E8900A5CD0E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 146d87895cfb1c65fe5ae2f509b7787aaf4d7258 4f55da2d76d17cf6d2d4403954f645bdc910633d608bb8b87eca90d908f17027";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D317F291AC5010400A5CD0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6E01771ACE4BE8003E22D1 /* User.m in Sources */,
 				3D317F391AC5010500A5CD0E /* ViewController.m in Sources */,
+				3D317F621AC5194E00A5CD0E /* QuizViewController.m in Sources */,
 				3D317F361AC5010500A5CD0E /* AppDelegate.m in Sources */,
+				3D1280631AC999CF0097BD59 /* Tweet.m in Sources */,
+				3D6E017A1ACE4C60003E22D1 /* UserSelectionViewController.m in Sources */,
+				3D0B9FE61AC9BA27003A07D2 /* Question.m in Sources */,
 				3D317F331AC5010500A5CD0E /* main.m in Sources */,
+				3D317F5F1AC5149700A5CD0E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +408,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Who Tweeted It?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +422,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Who Tweeted It?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +485,7 @@
 				3D317F521AC5010500A5CD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D317F531AC5010500A5CD0E /* Build configuration list for PBXNativeTarget "Who Tweeted It?Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +494,7 @@
 				3D317F551AC5010500A5CD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
